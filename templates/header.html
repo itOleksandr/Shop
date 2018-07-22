@@ -1,0 +1,44 @@
+{% load static %}
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a href="#" class="navbar-brand ml-4">
+        <img src="{% static 'img/logo.png'%}"  width="120" height="27" alt="">
+    </a>
+    <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse "  id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto offset-2">
+            <li class="nav-item ">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link">Sale</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <form class="form-inline mr-3">
+            <a href="#" class="header-wrapicon1 dis-block">
+                <img src="{% static 'img/profile-header.png' %}">
+            </a>
+            <span class="linedivide1"></span>
+            <div class="header-wrapicon1">
+                <a href="#" class="header-wrapicon1 dis-block">
+                <img src="{% static 'img/basket-header.png' %}" class="header-icon1 " alt="ICON">
+                </a>
+            </div>
+        </form>
+    </div>
+</nav>

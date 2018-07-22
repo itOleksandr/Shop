@@ -1,0 +1,147 @@
+
+/*-------------navbar------------------*/
+.linedivide1 {
+    display: block;
+    height: 20px;
+    width: 1px;
+    background-color: #e5e5e5;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 5px;
+}
+body{
+
+}
+/*-------------OFF------------------*/
+/*****************Footer******************/
+.bg6 {
+    background-color: #f0f0f0;
+}
+.p-r-45 {
+    padding-right: 45px;
+}
+.p-l-45 {
+    padding-left: 150px;
+}
+.flex-w {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.w-size6 {
+    width: 26%;
+}
+.w-size7 {
+    width: 15%;
+}
+.w-size8 {
+    width: 34%;
+}
+.p-r-15 {
+    padding-right: 15px;
+}
+.p-l-15 {
+    padding-left: 15px;
+}
+.p-t-30 {
+    padding-top: 30px;
+}
+/***************MEDIA**********************/
+@media (max-width: 992px) {
+    .respon3 {
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .respon4 {
+        width: 33.333333%;
+    }
+}
+@media (max-width: 480px) {
+    .respon7, .respon4 {
+        width: 100%;
+    }
+}
+@media (max-width: 992px) {
+    .p-l-45{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 480px) {
+    .p-l-45 {
+        padding-left: 0px;
+    }
+}
+/***************MEDIA off**********************/
+.footer-h5{
+    border-bottom: 1px solid #30d85c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    padding: 40px 0 15px;
+    text-transform: uppercase;
+    color: #343a40;
+}
+.footer-ul{
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 20px;
+    color: #888888;
+}
+.supportLi h4 {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: normal;
+}
+.a-footer, .footer-category-a{
+    font-size: 10pt;
+    color: #888888;
+}
+ul li{
+    list-style: none;
+}
+.footer-label{
+    padding-bottom: 2px;
+    font-size: 10pt;
+    color: #888888;
+    width: 235px;
+}
+.form-control {
+    padding: 0.275rem .75rem;
+    font-size: 10pt;
+    border-radius: 0;
+    width: 235px;
+
+
+}
+.footer-btn{
+    border-radius: 0;
+    color: white;
+    margin-top: 5px;
+    width: 235px;
+    background-color: #1cab41;
+    border-color: #2ea24c;
+    height: 33px;
+    text-align: center;
+}
+.btn-change6:hover{
+    box-shadow:235px 0 0 #29733c inset;
+}
+.form-control:focus {
+    border-color: #1cab41;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(46, 162, 76, 0.6);
+}
+.negative-margin{
+    padding-left: 0;
+}
+/*****************off******************/
